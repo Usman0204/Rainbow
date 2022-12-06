@@ -1,24 +1,24 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@pancakeswap-libs/sdk'
 
-export const ROUTER_ADDRESS = '0x1a547B5CE91ba3B65305E7979A12C8BC8A3D4962'
+export const ROUTER_ADDRESS = '0x0A582890d254B46E06f4488d879D28893121Dc76'
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
-export const BUSD = new Token(ChainId.MAINNET, '0xe9e7cea3dedca5984780bafc599bd69add087d56', 18, 'BUSD', 'Binance USD')
-export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff775485246999027b3197955', 18, 'USDT', 'Tether USD')
+export const DAI = new Token(ChainId.MAINNET, '0x6901F1e9088C5F452A3e50a2565b4cEf3991Bbc3', 18, 'DAI', 'Dai Stablecoin')
+export const BUSD = new Token(ChainId.MAINNET, '0x9c540608c6fD9AFc52cdc93B0082f2212Ac4E017', 18, 'BUSD', 'Binance USD')
+export const USDT = new Token(ChainId.MAINNET, '0x2Eb8414B473b1bEA5818a4Ec02786338516bf10B', 18, 'USDT', 'Tether USD')
 export const UST = new Token(
   ChainId.MAINNET,
-  '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
+  '0x2Eb8414B473b1bEA5818a4Ec02786338516bf10B',
   18,
   'UST',
   'Wrapped UST Token'
 )
 export const ETH = new Token(
   ChainId.MAINNET,
-  '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+  '0x087e209ABbF72897Cc8A1749af4cF23D532a738e',
   18,
   'ETH',
   'Binance-Peg Ethereum Token'
